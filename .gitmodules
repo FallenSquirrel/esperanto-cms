@@ -1,3 +1,36 @@
 [submodule "src/esperanto/AdminBundle"]
 	path = src/esperanto/AdminBundle
 	url = https://github.com/xqweb/esperantoAdminBundle.git
+[submodule "src/esperanto/AssetsBundle"]
+	path = src/esperanto/AssetsBundle
+	url = https://github.com/xqweb/esperantoAssetsBundle.git
+[submodule "src/esperanto/CategoryBundle"]
+	path = src/esperanto/CategoryBundle
+	url = https://github.com/xqweb/esperantoCategoryBundle.git
+[submodule "src/esperanto/ContentBundle"]
+	path = src/esperanto/ContentBundle
+	url = https://github.com/xqweb/esperantoContentBundle.git
+[submodule "src/esperanto/MediaBundle"]
+	path = src/esperanto/MediaBundle
+	url = https://github.com/xqweb/esperantoMediaBundle.git
+[submodule "src/esperanto/NewsBundle"]
+	path = src/esperanto/NewsBundle
+	url = https://github.com/xqweb/esperantoNewsBundle.git
+[submodule "src/esperanto/PageBundle"]
+	path = src/esperanto/PageBundle
+	url = https://github.com/xqweb/esperantoPageBundle.git
+[submodule "src/esperanto/ReferenceBundle"]
+	path = src/esperanto/ReferenceBundle
+	url = https://github.com/xqweb/esperantoReferenceBundle.git
+[submodule "src/esperanto/SearchBundle"]
+	path = src/esperanto/SearchBundle
+	url = https://github.com/xqweb/esperantoSearchBundle.git
+[submodule "src/esperanto/SettingBundle"]
+	path = src/esperanto/SettingBundle
+	url = https://github.com/xqweb/esperantoSettingBundle.git
+[submodule "src/esperanto/SliderBundle"]
+	path = src/esperanto/SliderBundle
+	url = https://github.com/xqweb/esperantoSliderBundle.git
+[submodule "src/esperanto/UserBundle"]
+	path = src/esperanto/UserBundle
+	url = https://github.com/xqweb/esperantoUserBundle.git
