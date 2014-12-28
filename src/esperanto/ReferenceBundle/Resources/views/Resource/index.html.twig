@@ -1,0 +1,27 @@
+{% extends '::admin.html.twig' %}
+
+{% block javascripts %}
+    <script type="text/javascript">
+        $(function() {
+            admin.initPagination('{{ admin.tableRoute }}');
+            admin.initTable();
+            admin.initTopButton('.action .btn.create', {}, '{{ admin.createRoute }}');
+            admin.initTopButton('.action .btn.category-sector', {}, '{{ admin.config.getParameter('category_route') }}', {name : 'reference-sector'});
+            admin.initTopButton('.action .btn.category-style', {}, '{{ admin.config.getParameter('category_route') }}', {name : 'reference-style'});
+            admin.initAfterSaveHandler();
+        });
+    </script>
+{% endblock %}
+
+{% block content %}
+    <div class="row mb3 action">
+        <button class="btn create span3"><i class="icon-plus-sign"></i> {{ admin.addButtonText|trans }}</button>
+        <button class="btn category-sector span3"><i class="icon-cog"></i> {{ 'button.manage_category_sector'|trans }}</button>
+        <button class="btn category-style span3"><i class="icon-cog"></i> {{ 'button.manage_category_style'|trans }}</button>
+    </div>
+
+    <div class="table-container" data-edit-route="{{ admin.editRoute }}" data-refresh-route="{{ admin.tableRoute }}">
+        {% include admin.config.getTemplate('table') %}
+    </div>
+    {{ pagination_render(data) }}
+{% endblock %}
