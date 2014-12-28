@@ -1,0 +1,3 @@
+[submodule "src/esperanto/AdminBundle"]
+	path = src/esperanto/AdminBundle
+	url = https://github.com/xqweb/esperantoAdminBundle.git
