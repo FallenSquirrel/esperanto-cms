@@ -1,0 +1,8 @@
+{% extends 'esperantoAdminBundle::dialog.html.twig' %}
+
+{% block content %}
+    <form method="POST" action="{{ path(admin.createRoute) }}">
+        {% include admin.config.getTemplate('form') %}
+        {{ block('buttonRow') }}
+    </form>
+{% endblock %}
