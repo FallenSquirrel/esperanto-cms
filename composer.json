@@ -45,19 +45,7 @@
     "natxet/CssMin": "dev-master",
     "liip/imagine-bundle": "1.0.6",
     "zendframework/zend-soap": "2.3.3",
-    "massive/search-bundle": "0.2",
-    "esperanto/admin-bundle": "dev-master",
-    "esperanto/assets-bundle": "dev-master",
-    "esperanto/category-bundle": "dev-master",
-    "esperanto/content-bundle": "dev-master",
-    "esperanto/media-bundle": "dev-master",
-    "esperanto/news-bundle": "dev-master",
-    "esperanto/page-bundle": "dev-master",
-    "esperanto/reference-bundle": "dev-master",
-    "esperanto/search-bundle": "dev-master",
-    "esperanto/setting-bundle": "dev-master",
-    "esperanto/slider-bundle": "dev-master",
-    "esperanto/user-bundle": "dev-master"
+    "massive/search-bundle": "0.2"
   },
   "scripts": {
     "post-install-cmd": [
