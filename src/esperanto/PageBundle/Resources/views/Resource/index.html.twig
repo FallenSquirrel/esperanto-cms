@@ -1,0 +1,12 @@
+{% extends 'esperantoAdminBundle:Resource:index.html.twig' %}
+
+{% block javascripts %}
+    <script type="text/javascript">
+        $(function() {
+            admin.initPagination('{{ admin.tableRoute }}');
+            admin.initTable();
+            admin.initTopButton('.action .btn.create', {}, '{{ admin.createRoute }}');
+            admin.initAfterSaveHandler();
+        });
+    </script>
+{% endblock %}
