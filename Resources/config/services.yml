@@ -1,0 +1,13 @@
+parameters:
+    esperanto_slider.event.slider.class: esperanto\SliderBundle\EventListener\AdminBuilderSubscriber
+
+services:
+    esperanto_slider.event.slider:
+        class: %esperanto_slider.event.slider.class%
+        tags:
+            - { name: kernel.event_subscriber }
+
+    esperanto_slider_slider:
+        class: %esperanto_slider.form.type.slider.class%
+        tags:
+            - { name: form.type }
