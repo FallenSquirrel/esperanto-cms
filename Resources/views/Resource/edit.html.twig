@@ -1,0 +1,9 @@
+{% extends 'esperantoAdminBundle::dialog.html.twig' %}
+
+{% block content %}
+    <form method="POST" action="{{ path(admin.editRoute, { id: data.id }) }}" data-delete-url="{{ path(admin.deleteRoute, { id: data.id }) }}">
+        {% include admin.config.getTemplate('form') %}
+        {% set showDeleteButton = true %}
+        {{ block('buttonRow') }}
+    </form>
+{% endblock %}
